@@ -9,22 +9,22 @@ A variância é uma medida de variabilidade estatística que indica o quão disp
 A fórmula da variância, denotada por `σ²` (sigma ao quadrado) para uma população ou `S²` (S ao quadrado) para uma amostra, é a seguinte:
 
 Para uma população:
-$ \displaystyle\ \sigma² = \frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2 $
+$\displaystyle\ \sigma² = \frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2$
 
 Para uma amostra:
-$ \displaystyle\ S² = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2 $
+$\displaystyle\ S² = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2$
 
 Onde:
-- $ \sigma² $ ou $ S² $ é a variância para a população ou amostra, respectivamente.
-- $ N $ é o tamanho da população.
-- $ n $ é o tamanho da amostra.
-- $ x_i $ representa cada valor individual no conjunto de dados.
-- $ \mu $ é a média da população.
-- $ \bar{x} $ é a média da amostra.
+- $\sigma²$ ou $S²$ é a variância para a população ou amostra, respectivamente.
+- $N$ é o tamanho da população.
+- $n$ é o tamanho da amostra.
+- $x_i$ representa cada valor individual no conjunto de dados.
+- $\mu$ é a média da população.
+- $\bar{x}$ é a média da amostra.
 
 Para calcular a variância, você segue estas etapas:
 
-1. Calcule a média dos dados ($ \mu $ ou $ \bar{x} $).
+1. Calcule a média dos dados ($\mu$ ou $\bar{x}$).
 2. Subtraia a média de cada valor no conjunto de dados.
 3. Eleve ao quadrado cada uma das diferenças.
 4. Calcule a média dos valores resultantes (a soma das diferenças ao quadrado dividida pelo número de dados menos 1 para amostras).
