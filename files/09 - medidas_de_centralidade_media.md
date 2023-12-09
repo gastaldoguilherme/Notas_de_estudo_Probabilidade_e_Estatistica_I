@@ -11,12 +11,13 @@
 A média de uma população, muitas vezes denotada por μ (mu), é a média de todos os valores de uma característica em uma população completa. Para calcular a média de uma população, você soma todos os valores e divide pelo tamanho da população.
 
 **Fórmula**:
-$ \displaystyle\ \mu = \frac{\sum_{i=1}^{N} x_i}{N} $
+
+$\mu = \frac{\displaystyle\sum_{i=1}^{N} x_i}{N}$
 
 **Onde**:
 - μ é a média da população.
 - N é o tamanho da população.
-- $ x_i $ são os valores individuais da população.
+- $x_i$ são os valores individuais da população.
 
 **Exemplo de Média de uma População**:
 Suponha que você queira calcular a média de idade de todos os habitantes de uma cidade. Você coleta informações de todas as pessoas na cidade e, em seguida, calcula a média somando as idades de todas as pessoas e dividindo pelo número total de habitantes.
@@ -26,12 +27,12 @@ A média de uma amostra, frequentemente representada por $ \displaystyle\ \bar{x
 
 **Fórmula**:
 
-$ \displaystyle\ \bar{x} = \frac{\sum_{i=1}^{n} x_i}{n} $
+$\displaystyle\ \bar{x} = \frac{\displaystyle\sum_{i=1}^{n} x_i}{n}$
 
 **Onde**:
-- $ \displaystyle\ \bar{x} $ é a média da amostra.
+- $\displaystyle\ \bar{x}$ é a média da amostra.
 - n é o tamanho da amostra.
-- $ x_i $ são os valores individuais da amostra.
+- $x_i$ são os valores individuais da amostra.
 
 **Exemplo de Média de uma Amostra**:
 Suponha que você queira calcular a média de idade de uma amostra de 100 pessoas em uma cidade com uma população total de 10.000. Você coleta informações de 100 pessoas e calcula a média das idades dessa amostra.
@@ -43,28 +44,28 @@ Em ambos os casos, a média é uma medida central que descreve a tendência cent
 ### Tipos de Médias, Fórmulas, Exemplos e Usos
 
 1. **Média Aritmética**:
-   - **Fórmula**: $ \displaystyle\ \text{Média} = \frac{\sum_{i=1}^n x_i}{n} $
-   - **Exemplo**: Média de [10, 20, 30] = $ \displaystyle\ \frac{10 + 20 + 30}{3} = 20 $
+   - **Fórmula**: $\displaystyle\ \text{Média} = \frac{\displaystyle\sum_{i=1}^n x_i}{n}$
+   - **Exemplo**: Média de [10, 20, 30] = $\displaystyle\ \frac{10 + 20 + 30}{3} = 20$
    - **Uso**: A média aritmética é amplamente usada para calcular valores centrais e é a média mais comum usada em análises estatísticas. Exemplos de uso incluem o cálculo da média de pontuações de testes, média de idades de uma população.
 
 2. **Média Ponderada**:
-   - **Fórmula**: $ \displaystyle\ \text{Média Ponderada} = \frac{\sum_{i=1}^n w_i \cdot x_i}{\sum_{i=1}^n w_i} $
-   - **Exemplo**: Média ponderada de [10, 20, 30] com pesos [0.3, 0.2, 0.5] = $ \displaystyle\ \frac{(10 \cdot 0.3) + (20 \cdot 0.2) + (30 \cdot 0.5)}{0.3 + 0.2 + 0.5} = 23 $
+   - **Fórmula**: $\displaystyle\ \text{Média Ponderada} = \frac{\displaystyle\sum_{i=1}^n w_i \cdot x_i}{\displaystyle\sum_{i=1}^n w_i}$
+   - **Exemplo**: Média ponderada de [10, 20, 30] com pesos [0.3, 0.2, 0.5] = $\displaystyle\ \frac{(10 \cdot 0.3) + (20 \cdot 0.2) + (30 \cdot 0.5)}{0.3 + 0.2 + 0.5} = 23$
    - **Uso**: A média ponderada é usada quando diferentes valores têm diferentes importâncias ou pesos. Exemplos de uso incluem a média de notas e o cálculo de índices ponderados em finanças.
 
 3. **Média Geométrica**:
-   - **Fórmula**: $ \displaystyle\ \text{Média Geométrica} = \sqrt[n]{x_1 \cdot x_2 \cdot \ldots \cdot x_n} $
-   - **Exemplo**: Média geométrica de [2, 4, 8] = $ \displaystyle\ \sqrt[3]{2 \cdot 4 \cdot 8} = 4 $
+   - **Fórmula**: $\displaystyle\ \text{Média Geométrica} = \sqrt[n]{x_1 \cdot x_2 \cdot \ldots \cdot x_n}$
+   - **Exemplo**: Média geométrica de [2, 4, 8] = $\displaystyle\ \sqrt[3]{2 \cdot 4 \cdot 8} = 4$
    - **Uso**: A média geométrica é usada para calcular médias de taxas de crescimento, taxas de retorno ou valores que se multiplicam. Exemplo de uso inclui o cálculo do retorno médio de investimentos ao longo do tempo.
 
 4. **Média Harmônica**:
-   - **Fórmula**: $ \displaystyle\ \text{Média Harmônica} = \frac{n}{\sum_{i=1}^n \frac{1}{x_i}} $
-   - **Exemplo**: Média harmônica de [2, 4, 8] = $ \displaystyle\ \frac{3}{\frac{1}{2} + \frac{1}{4} + \frac{1}{8}} = \frac{3}{\frac{7}{8}} = \frac{24}{7} $
+   - **Fórmula**: $\displaystyle\ \text{Média Harmônica} = \frac{n}{\displaystyle\sum_{i=1}^n \frac{1}{x_i}}$
+   - **Exemplo**: Média harmônica de [2, 4, 8] = $\displaystyle\ \frac{3}{\displaystyle\frac{1}{2} + \frac{1}{4} + \frac{1}{8}} = \frac{3}{\displaystyle\frac{7}{8}} = \frac{24}{7}$
    - **Uso**: A média harmônica é usada para médias de taxas ou valores inversos, como velocidade média. Exemplo de uso inclui o cálculo da velocidade média em viagens de ida e volta.
 
 5. **Média Quadrática (RMS - Root Mean Square)**:
-   - **Fórmula**: $ \displaystyle\ \text{Média Quadrática} = \sqrt{\frac{1}{n} \sum_{i=1}^n x_i^2} $
-   - **Exemplo**: Média quadrática de [3, 4, 5] = $ \displaystyle\ \sqrt{\frac{1}{3} \cdot (3^2 + 4^2 + 5^2)} \approx 4.18 $
+   - **Fórmula**: $\displaystyle\ \text{Média Quadrática} = \sqrt{\frac{1}{n} \sum_{i=1}^n x_i^2}$
+   - **Exemplo**: Média quadrática de [3, 4, 5] = $\displaystyle\ \sqrt{\frac{1}{3} \cdot (3^2 + 4^2 + 5^2)} \approx 4.18$
    - **Uso**: A média quadrática é usada para calcular a média dos quadrados dos valores e é útil para medições de amplitude, como em análises de sinais. Exemplo de uso inclui o cálculo da potência eficaz em circuitos elétricos e análise de dados de amplitude de ondas sonoras.
 
 6. **Média Truncada**:
@@ -80,10 +81,10 @@ Cada tipo de média é aplicável em cenários específicos com base nas caracte
 ## Exemplo Prático
 
 1. **Média Aritmética**:
-   - **Exemplo Prático**: Suponha que você tenha um conjunto de notas de um aluno em diferentes disciplinas: [85, 90, 78, 92, 88]. Para calcular a média das notas, você soma todas as notas e divide pelo número de disciplinas. A média aritmética seria $ \displaystyle\ \frac{85 + 90 + 78 + 92 + 88}{5} = 86.6 $. Essa média representa a pontuação média do aluno.
+   - **Exemplo Prático**: Suponha que você tenha um conjunto de notas de um aluno em diferentes disciplinas: [85, 90, 78, 92, 88]. Para calcular a média das notas, você soma todas as notas e divide pelo número de disciplinas. A média aritmética seria $\displaystyle\ \frac{85 + 90 + 78 + 92 + 88}{5} = 86.6$. Essa média representa a pontuação média do aluno.
 
 2. **Média Ponderada**:
-   - **Exemplo Prático**: Imagine que você está calculando a média de um produto com base em suas avaliações, onde as avaliações variam de 1 a 5, e a importância de cada avaliação é diferente. Se as avaliações e seus pesos forem [4, 5, 3] e [0.2, 0.3, 0.5], respectivamente, a média ponderada seria calculada como $ \displaystyle\ \frac{(4 \cdot 0.2) + (5 \cdot 0.3) + (3 \cdot 0.5)}{0.2 + 0.3 + 0.5} = 3.7 $. Isso reflete a avaliação média do produto, considerando a importância das avaliações.
+   - **Exemplo Prático**: Imagine que você está calculando a média de um produto com base em suas avaliações, onde as avaliações variam de 1 a 5, e a importância de cada avaliação é diferente. Se as avaliações e seus pesos forem [4, 5, 3] e [0.2, 0.3, 0.5], respectivamente, a média ponderada seria calculada como $\displaystyle\ \frac{(4 \cdot 0.2) + (5 \cdot 0.3) + (3 \cdot 0.5)}{0.2 + 0.3 + 0.5} = 3.7$. Isso reflete a avaliação média do produto, considerando a importância das avaliações.
 
 3. **Média Geométrica**:
    - **Exemplo Prático**: Se você investir em ações e deseja calcular o retorno médio anual ao longo de 3 anos, e os retornos anuais são 10%, 5%, e 8%, a média geométrica seria $\displaystyle\ \sqrt[3]{1.10 \cdot 1.05 \cdot 1.08} \approx 7.65\%$. Isso representa o crescimento médio anual de seus investimentos.
