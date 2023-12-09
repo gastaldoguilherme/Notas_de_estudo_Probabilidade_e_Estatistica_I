@@ -17,15 +17,12 @@ O desvio padrão é uma medida estatística que fornece uma medida da dispersão
 
 ### Fórmula do Desvio Padrão Populacional ($\sigma$):
 
-$ \displaystyle\
-\sigma = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2}
-$
+$\displaystyle\\sigma = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2}$
 
 ### Fórmula do Desvio Padrão Amostral ($s$):
 
-$ \displaystyle\
-s = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2}
-$
+$\displaystyle s = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2}$
+
 
 Onde:
 - $N$ é o tamanho da população.
@@ -40,18 +37,14 @@ Onde:
 - Desvio Padrão da População ($\sigma$):
    A fórmula do desvio padrão da população é usada quando temos acesso a todos os dados de uma população completa. Nesse caso, podemos calcular o desvio padrão populacional diretamente usando a seguinte fórmula:
 
-   $ \displaystyle\
-   \sigma = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2}
-   $
+   $\displaystyle\sigma = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2}$
 
    Onde $N$ representa o tamanho da população, $\mu$ é a média da população e $x_i$ são os valores individuais da população. Não há a necessidade de estimar parâmetros, pois todos os dados da população estão disponíveis.
 
 - Desvio Padrão da Amostra ($s$):
    No entanto, em muitos casos, não temos acesso a todos os dados de uma população completa, mas apenas a uma amostra representativa dela. Quando trabalhamos com amostras, a fórmula do desvio padrão da amostra é usada, pois precisamos levar em consideração a estimativa da média da população a partir da média da amostra. A fórmula é a seguinte:
 
-   $ \displaystyle\
-   s = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2}
-   $
+   $\displaystyle s = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2}$
 
    Neste caso, $n$ representa o tamanho da amostra, $\bar{x}$ é a média da amostra e $x_i$ são os valores individuais da amostra. A diferença crucial é a divisão por $n-1$, o que é conhecido como o fator de correção de Bessel. Essa correção é necessária para ajustar a variabilidade da amostra e evitar uma subestimação do verdadeiro desvio padrão populacional. A divisão por $n-1$ ao invés de $n$ é uma consequência da inferência estatística.
 
