@@ -15,7 +15,7 @@ Se $X_1, X_2, ..., X_n$ são variáveis aleatórias independentes e identicament
 
 Matematicamente, isso pode ser expresso da seguinte forma:
 
-$ \bar{X} \sim \mathcal{N} \left( \mu, \frac{\sigma}{\sqrt{n}} \right) $
+$\bar{X} \sim \mathcal{N} \left( \mu, \frac{\sigma}{\sqrt{n}} \right)$
 
 onde:
 - $\bar{X}$ é a média amostral,
