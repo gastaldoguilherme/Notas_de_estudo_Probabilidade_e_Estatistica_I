@@ -12,9 +12,9 @@
 
 O coeficiente quartílico de assimetria é uma medida estatística que avalia a assimetria de uma distribuição de dados em relação aos quartis. Ele é calculado pela fórmula:
 
-$ Q_s = \frac{Q_3 + Q_1 - 2Q_2}{Q_3 - Q_1} $
+$Q_s = \frac{Q_3 + Q_1 - 2Q_2}{Q_3 - Q_1}$
 
-onde $ Q_1 $, $ Q_2 $ e $ Q_3 $ são os valores dos quartis inferior, mediano e superior, respectivamente.
+onde $Q_1$, $Q_2$ e $Q_3$ são os valores dos quartis inferior, mediano e superior, respectivamente.
 
 
 #### Exemplo de Coeficiente Quartílico de Assimetria
@@ -23,23 +23,23 @@ Suponha que tenhamos os seguintes dados representando uma amostra de uma distrib
 
 $12, 15, 18, 20, 22, 25, 28, 30, 35, 40 $
 
-Agora, vamos calcular o Coeficiente Quartílico de Assimetria $( Q_s $) para essa amostra. Primeiro, ordenamos os dados:
+Agora, vamos calcular o Coeficiente Quartílico de Assimetria ( $Q_s$) para essa amostra. Primeiro, ordenamos os dados:
 
 $12, 15, 18, 20, 22, 25, 28, 30, 35, 40 $
 
 Os quartis são então calculados da seguinte forma:
 
-- $ Q_1 $ (primeiro quartil) é a mediana dos dados abaixo do ponto médio: $ Q_1 = \frac{15 + 18}{2} = 16.5 $
-- $ Q_2 $ (segundo quartil) é a mediana da amostra: $ Q_2 = 22 $
-- $ Q_3 $ (terceiro quartil) é a mediana dos dados acima do ponto médio: $ Q_3 = \frac{30 + 35}{2} = 32.5 $
+- $Q_1$ (primeiro quartil) é a mediana dos dados abaixo do ponto médio: $Q_1 = \frac{15 + 18}{2} = 16.5$
+- $Q_2$ (segundo quartil) é a mediana da amostra: $Q_2 = 22$
+- $Q_3$ (terceiro quartil) é a mediana dos dados acima do ponto médio: $Q_3 = \frac{30 + 35}{2} = 32.5$
 
 Agora, podemos usar a fórmula do Coeficiente Quartílico de Assimetria:
 
-$Q_s = \frac{Q_3 + Q_1 - 2Q_2}{Q_3 - Q_1} $
+$Q_s = \frac{Q_3 + Q_1 - 2Q_2}{Q_3 - Q_1}$
 
 Substituindo os valores:
 
-$Q_s = \frac{32.5 + 16.5 - 2 \times 22}{32.5 - 16.5} $
+$Q_s = \frac{32.5 + 16.5 - 2 \times 22}{32.5 - 16.5}$
 
 Calculando:
 
@@ -49,10 +49,10 @@ $Q_s = \frac{33}{16} \approx 2.06 $
 
 A interpretação do Coeficiente Quartílico de Assimetria ($ Q_s $) envolve analisar o sinal e a magnitude do resultado. Vamos interpretar o valor que calculamos no exemplo:
 
-$ Q_s \approx 2.06 $
+$Q_s \approx 2.06$
 
 1. **Sinal:** O valor é positivo, indicando assimetria positiva.
-   - Se $ Q_s $ é positivo, significa que a cauda direita da distribuição é mais longa ou tem uma inclinação mais suave em comparação com a cauda esquerda. Isso sugere que existem valores acima da média que estão mais afastados do centro da distribuição.
+   - Se $Q_s$ é positivo, significa que a cauda direita da distribuição é mais longa ou tem uma inclinação mais suave em comparação com a cauda esquerda. Isso sugere que existem valores acima da média que estão mais afastados do centro da distribuição.
 
 2. **Magnitude:** O valor de 2.06 é relativamente grande.
    - Quanto maior o valor em termos absolutos, maior é a assimetria.
@@ -69,9 +69,9 @@ Lembre-se de que a interpretação pode variar dependendo do contexto da anális
 
 O coeficiente decílico de assimetria é outra medida que busca quantificar a assimetria em uma distribuição, considerando os decis (frações de 10%) em vez dos quartis. Sua fórmula é dada por:
 
-$ D_s = \frac{D_9 + D_1 - 2D_5}{D_9 - D_1} $
+$D_s = \frac{D_9 + D_1 - 2D_5}{D_9 - D_1}$
 
-onde $ D_1 $, $ D_5 $ e $ D_9 $ representam os valores dos decis de 10%, 50%, e 90%, respectivamente.
+onde $D_1$, $D_5$ e $D_9$ representam os valores dos decis de 10%, 50%, e 90%, respectivamente.
 
 
 
@@ -80,11 +80,11 @@ onde $ D_1 $, $ D_5 $ e $ D_9 $ representam os valores dos decis de 10%, 50%, e 
 
 Suponha que tenhamos os seguintes dados representando uma amostra de uma distribuição estatística:
 
-$10, 12, 14, 18, 20, 22, 25, 28, 30, 35 $
+$10, 12, 14, 18, 20, 22, 25, 28, 30, 35$
 
 Agora, vamos calcular o Coeficiente Decílico de Assimetria ($D_s$) para essa amostra. Primeiro, ordenamos os dados:
 
-$10, 12, 14, 18, 20, 22, 25, 28, 30, 35 $
+$10, 12, 14, 18, 20, 22, 25, 28, 30, 35$
 
 Os decis são então calculados da seguinte forma:
 
@@ -95,15 +95,15 @@ Os decis são então calculados da seguinte forma:
 
 Agora, podemos usar a fórmula do Coeficiente Decílico de Assimetria:
 
-$D_s = \displaystyle \frac{D_9 + D_1 - 2D_5}{D_9 - D_1} $
+$D_s = \displaystyle \frac{D_9 + D_1 - 2D_5}{D_9 - D_1}$
 
 Substituindo os valores:
 
-$D_s = \displaystyle\frac{35 + 12 - 2 \times 22}{35 - 12} $
+$D_s = \displaystyle\frac{35 + 12 - 2 \times 22}{35 - 12}$
 
 Calculando:
 
-$D_s = \frac{13}{23} \approx 0.57 $
+$D_s = \frac{13}{23} \approx 0.57$
 
 ### Conclusão
 
@@ -118,10 +118,10 @@ Os coeficientes de Pearson são formas de medir a assimetria da amostra em funç
 
 #### O primeiro coeficiente de assimetria de Pearson é dado pela seguinte expressão:
 
-$ A = \frac{\mu - \text{Mo}}{S} $
+$A =\huge \frac{\mu - \text{Mo}}{S}$
 
 Nessa expressão:
-- $ \mu $ é a média aritmética da amostra;
+- $\mu$ é a média aritmética da amostra;
 - Mo é a moda da amostra;
 - S é o desvio padrão da amostra.
 - O sinal da amostra é dado pelo numerador, portanto:
@@ -130,10 +130,10 @@ Nessa expressão:
 
 #### O segundo coeficiente de assimetria de Pearson é dado pela seguinte expressão:
 
-$ A = \frac{3 \times (\mu - \text{Mediana})}{S} $
+$A =\huge \frac{3 \times (\mu - \text{Mediana})}{S}$
 
 Nessa expressão:
-- $ \mu $ é a média aritmética da amostra;
+- $\mu$ é a média aritmética da amostra;
 - Md é a mediana da amostra;
 - S é o desvio padrão da amostra.
 - O sinal da amostra é dado pelo numerador, portanto:
@@ -159,39 +159,46 @@ O coeficiente de skewness é calculado usando a fórmula:
 
 #### Coeficiente de Skewness (com desvio padrão)
 
-Esta fórmula usa $ \bar{x} $ para representar a média dos dados e $ s $ para representar o desvio padrão.
+Esta fórmula usa $\bar{x}$ para representar a média dos dados e $s$ para representar o desvio padrão.
 
-$ \text{Skewness} = \displaystyle \frac{\sum{(x_i - \bar{x})^3}}{n \cdot s^3} $
+$\huge\text{Skewness} = \displaystyle \frac{\sum{(x_i - \bar{x})^3}}{n \cdot s^3}$
 
 
    - Mede a assimetria de uma distribuição.
    - Valores positivos indicam assimetria à direita, enquanto valores negativos indicam assimetria à esquerda.
-   - A fórmula típica é: $ \text{Skewness} = \displaystyle \frac{\sum{(x_i - \bar{x})^3}}{n \cdot s^3} $, onde $ \bar{x} $ é a média, $ n $ é o número de observações e $ s $ é o desvio padrão.
+   - A fórmula típica é: $\text{Skewness} = \displaystyle \frac{\sum{(x_i - \bar{x})^3}}{n \cdot s^3} $, onde $ \bar{x}$ é a média, $n$ é o número de observações e $s$ é o desvio padrão.
 
 
 #### Coeficiente de Skewness (com somatórios e médias amostrais)
 
 A segunda fórmula  é uma forma padronizada da fórmula, onde os cálculos são expressos em termos de somatórios e médias amostrais:
 
-$ \text{Skewness} = \displaystyle\frac{\frac{1}{n} \sum_{i=1}^{n} (X_i - \bar{X})^3}{\left(\frac{1}{n} \sum_{i=1}^{n} (X_i - \bar{X})^2\right)^{3/2}} $
+
+
+
+$\huge\text{Skewness} = \frac{\frac{1}{n} \sum\limits_{i=1}^{n} (X_i - \bar{X})^3}{\left(\frac{1}{n} \sum\limits_{i=1}^{n} (X_i - \bar{X})^2\right)^{3/2}}$
+
+
+
 
 Se expandirmos e simplificarmos a segunda fórmula, veremos que ela é essencialmente a mesma que a primeira:
 
-$ \text{Skewness} = \frac{\frac{1}{n} \sum_{i=1}^{n} (X_i - \bar{X})^3}{\left(\frac{1}{n} \sum_{i=1}^{n} (X_i - \bar{X})^2\right)^{3/2}} $
+$\huge\text{Skewness} = \frac{\frac{1}{n} \sum\limits_{i=1}^{n} (X_i - \bar{X})^3}{\left(\frac{1}{n} \sum\limits_{i=1}^{n} (X_i - \bar{X})^2\right)^{3/2}}$
 
-$ = \frac{\sum{(X_i - \bar{X})^3}}{n \cdot \left(\sum{(X_i - \bar{X})^2}\right)^{3/2}} $
+$= \huge\frac{\sum\limits{(X_i - \bar{X})^3}}{n \cdot \left(\sum{(X_i - \bar{X})^2}\right)^{3/2}}$
 
-$ = \frac{\sum{(x_i - \bar{x})^3}}{n \cdot s^3} $
-
-
+$= \huge\frac{\sum{(x_i - \bar{x})^3}}{n \cdot s^3}$
 
 
-$ \text{Skewness} = \frac{\frac{1}{n} \sum_{i=1}^{n} (X_i - \bar{X})^3}{\left(\frac{1}{n} \sum_{i=1}^{n} (X_i - \bar{X})^2\right)^{3/2}} $
+
+$\huge \text{Skewness} = \frac{\frac{1}{n} \sum\limits_{i=1}^{n} (X_i - \bar{X})^3}{\left(\frac{1}{n} \sum\limits_{i=1}^{n} (X_i - \bar{X})^2\right)^{3/2}}$
+
+
 
 onde:
-- $ n $ é o número de observações.
-- $ X_i $ é cada valor individual nos dados.
-- $ \bar{X} $ é a média dos dados.
+- $n$ é o número de observações.
+- $X_i$ é cada valor individual nos dados.
+- $\bar{X}$ é a média dos dados.
 
 O resultado do cálculo do coeficiente de skewness fornece informações sobre a forma da distribuição dos dados:
 
@@ -252,31 +259,33 @@ DescribeResult(nobs=10, minmax=(1, 10), mean=5.5, variance=9.166666666666668, sk
 **Dados:**
 Considere o seguinte conjunto de dados representando as idades de uma amostra de pessoas: 
 
-$ \{25, 30, 35, 40, 45, 50, 55, 60, 65, 70\} $
+$\{25, 30, 35, 40, 45, 50, 55, 60, 65, 70\}$
 
 **Fórmula:**
 O Coeficiente de Assimetria de Pearson é calculado pela seguinte fórmula:
 
-$ \text{Assimetria} = \frac{3(\bar{x} - \mu)}{s} $
+$\huge\text{Assimetria} = \frac{3(\bar{x} - \mu)}{s}$
 
 onde $\bar{x}$ é a média, $\mu$ é a mediana, e $s$ é o desvio padrão.
 
 **Solução:**
 
 1. **Calcular a média ($\bar{x}$):**
-   $ \bar{x} = \frac{25 + 30 + 35 + 40 + 45 + 50 + 55 + 60 + 65 + 70}{10} = 47.5 $
+   $\huge\bar{x} = \frac{25 + 30 + 35 + 40 + 45 + 50 + 55 + 60 + 65 + 70}{10} = 47.5$
 
 2. **Calcular a mediana ($\mu$):**
    - Como temos 10 observações, a mediana é a média das observações centrais, que são 45 e 50.
-   $ \mu = \frac{45 + 50}{2} = 47.5 $
+   $\huge\mu = \frac{45 + 50}{2} = 47.5$
 
 3. **Calcular o desvio padrão ($s$):**
-   $ s = \sqrt{\frac{\sum{(x_i - \bar{x})^2}}{n}} $
-   $ s = \sqrt{\frac{(25-47.5)^2 + (30-47.5)^2 + \ldots + (70-47.5)^2}{10}} $
-   $ s \approx 12.5 $
+   $= \sqrt{\huge\frac{\sum{(x_i - \bar{x})^2}}{n}}$
+   
+   $= \sqrt{\huge\frac{(25-47.5)^2 + (30-47.5)^2 + \ldots + (70-47.5)^2}{10}}$
+   
+   $\approx 12.5$
 
-4. **Calcular o Coeficiente de Assimetria de Pearson:**
-   $ \text{Assimetria} = \frac{3(47.5 - 47.5)}{12.5} = 0 $
+5. **Calcular o Coeficiente de Assimetria de Pearson:**
+   $\huge\text{Assimetria} = \frac{3(47.5 - 47.5)}{12.5} = 0$
 
 ```
 
@@ -322,13 +331,13 @@ O coeficiente de assimetria de Pearson é zero para esse conjunto de dados. Isso
 Considere o seguinte conjunto de dados representando as notas de um grupo de estudantes:
 
 
-$ \{78, 85, 92, 88, 96, 70, 82, 75, 90, 88\} $
+$\{78, 85, 92, 88, 96, 70, 82, 75, 90, 88\}$
 
 
 **Fórmula:**
 O Coeficiente de Skewness é calculado pela seguinte fórmula:
 
-$ \text{Skewness} = \displaystyle\frac{\frac{1}{n} \sum_{i=1}^{n} (X_i - \bar{X})^3}{\left(\frac{1}{n} \sum_{i=1}^{n} (X_i - \bar{X})^2\right)^{3/2}} $
+$\text{Skewness} = \displaystyle\frac{\frac{1}{n} \sum\limits_{i=1}^{n} (X_i - \bar{X})^3}{\left(\frac{1}{n} \sum\limits_{i=1}^{n} (X_i - \bar{X})^2\right)^{3/2}}$
 
 
 #### Biblioteca Numpy
@@ -412,21 +421,21 @@ A curtose da curva normal é 0,263. Uma curva será:
 
 As medidas de assimetria podem ser expressas em termos das medidas de tendência central, mas a curtose não pode. A fórmula comum para a curtose é o coeficiente percentílico de curtose:
 
-$ C = \displaystyle\frac{(Q3 - Q1)}{2 \times (D9 - D1)} $
+$C = \displaystyle\frac{(Q3 - Q1)}{2 \times (D9 - D1)}$
 
 Onde:
-- $ Q3 $ é o terceiro quartil.
-- $ Q1 $ é o primeiro quartil.
-- $ D9 $ é o nono decil.
-- $ D1 $ é o primeiro decil.
+- $Q3$ é o terceiro quartil.
+- $Q1$ é o primeiro quartil.
+- $D9$ é o nono decil.
+- $D1$ é o primeiro decil.
 
 Essa fórmula produz um valor entre 0 e 1. A curva normal tem índice 0,263. A curtose também pode ser expressa em função da amplitude semiquartílica:
 
-$ Aq = \displaystyle \frac{(Q3 - Q1)}{2} $
+$Aq = \displaystyle \frac{(Q3 - Q1)}{2}$
 
 E, finalmente, a curtose pode ser escrita como a razão entre a amplitude semiquartílica e a diferença entre o nono e o primeiro decil:
 
-$ C = \displaystyle\frac{Aq}{(D9 - D1)} $
+$C = \displaystyle\frac{Aq}{(D9 - D1)}$
 
 
 
@@ -481,16 +490,16 @@ O Coeficiente de Curtose é uma medida estatística que descreve a forma da dist
 
 A fórmula do Coeficiente de Curtose é dada por:
 
-$ \text{Curtose} = \displaystyle\frac{\frac{1}{n}\sum_{i=1}^{n} (x_i - \bar{x})^4}{\left(\frac{1}{n}\sum_{i=1}^{n} (x_i - \bar{x})^2\right)^2} - 3 $
+$\text{Curtose} = \huge\frac{\frac{1}{n}\sum\limits_{i=1}^{n} (x_i - \bar{x})^4}{\left(\frac{1}{n}\sum\limits_{i=1}^{n} (x_i - \bar{x})^2\right)^2} - 3$
 
 Onde:
-- $\bar{x} $ é a média do conjunto de dados.
-- $n $ é o número de observações no conjunto de dados.
+- $\bar{x}$ é a média do conjunto de dados.
+- $n$ é o número de observações no conjunto de dados.
 
 A fórmula é composta por duas partes principais:
-1. **Numerador (Parte Superior):** $\frac{1}{n}\sum_{i=1}^{n} (x_i - \bar{x})^4$ - Para cada valor no conjunto de dados, subtrai a média e eleva o resultado à quarta potência. Depois, soma todos esses valores.
+1. **Numerador (Parte Superior):** $\frac{1}{n}\sum\limits_{i=1}^{n} (x_i - \bar{x})^4$ - Para cada valor no conjunto de dados, subtrai a média e eleva o resultado à quarta potência. Depois, soma todos esses valores.
   
-2. **Denominador (Parte Inferior):** $\left(\frac{1}{n}\sum_{i=1}^{n} (x_i - \bar{x})^2\right)^2$ - Eleva ao quadrado a média dos quadrados dos desvios em relação à média.
+2. **Denominador (Parte Inferior):** $\left(\frac{1}{n}\sum\limits_{i=1}^{n} (x_i - \bar{x})^2\right)^2$ - Eleva ao quadrado a média dos quadrados dos desvios em relação à média.
 
 A subtração de 3 na fórmula é um ajuste para a curtose da distribuição normal padrão, que é 3. Portanto, uma distribuição normal terá um coeficiente de curtose de 0.
 
@@ -509,28 +518,28 @@ Vamos examinar os componentes dessa fórmula:
 
 A curtose é frequentemente definida como:
 
-$ \text{Curtose} = \displaystyle\frac{m_4(\mu)}{\sigma^4} - 3 $
+$\text{Curtose} = \displaystyle\frac{m_4(\mu)}{\sigma^4} - 3$
 
 onde:
-- $ m_4(\mu) $ é o quarto momento central,
-- $ \sigma $ é o desvio-padrão da distribuição,
-- $ \mu $ é a média da distribuição.
+- $m_4(\mu)$ é o quarto momento central,
+- $\sigma$ é o desvio-padrão da distribuição,
+- $\mu$ é a média da distribuição.
 
-O quarto momento central $ m_4(\mu) $ é calculado como a expectativa matemática do quarto poder das diferenças entre os valores da variável aleatória e a média:
+O quarto momento central $m_4(\mu)$ é calculado como a expectativa matemática do quarto poder das diferenças entre os valores da variável aleatória e a média:
 
-$ m_4(\mu) = E\left((X - \mu)^4\right) $
+$m_4(\mu) = E\left((X - \mu)^4\right)$
 
 Essencialmente, a curtose compara a distribuição em questão com uma distribuição normal padrão. A fórmula subtrai 3 para que uma distribuição normal padrão tenha uma curtose de 0. Valores positivos indicam uma distribuição mais "afiada" (leptocúrtica), enquanto valores negativos indicam uma distribuição mais "achatada" (platicúrtica).
 
 Além disso, alguns textos definem a curtose como a razão entre o quarto momento central e o quadrado do segundo momento central. O segundo momento central $ \mu_2 $ é a variância da distribuição, definida como:
 
-$ \mu_2 = E\left((X - \mu)^2\right) $
+$\mu_2 = E\left((X - \mu)^2\right)$
 
 A expressão para a curtose neste contexto é:
 
-$ \text{Curtose} = \displaystyle \frac{\mu_4}{\mu_2^2} $
+$\text{Curtose} = \displaystyle \frac{\mu_4}{\mu_2^2}$
 
-Neste caso, para uma distribuição normal, a curtose seria 3. Vale ressaltar que a curtose não tem um limite superior, ou seja, existem distribuições que podem ter uma curtose tão alta quanto desejado. No entanto, o limite inferior é -2, que ocorre na distribuição Bernoulli com $ p =\displaystyle \frac{1}{2} $.
+Neste caso, para uma distribuição normal, a curtose seria 3. Vale ressaltar que a curtose não tem um limite superior, ou seja, existem distribuições que podem ter uma curtose tão alta quanto desejado. No entanto, o limite inferior é -2, que ocorre na distribuição Bernoulli com $p =\displaystyle \frac{1}{2}$.
 
 
 #### Exercício: Coeficiente de Curtose (kurtosis)  em relação com a curva de uma distribuição normal
