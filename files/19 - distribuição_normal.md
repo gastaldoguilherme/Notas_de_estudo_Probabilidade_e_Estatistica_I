@@ -35,14 +35,14 @@ Seja $X$ uma variável aleatória contínua com média $\mu$, em que $-\infty < 
 
 ### Função Densidade de Probabilidade
 
-$$f_X(x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{1}{2} \left(\frac{x - \mu}{\sigma}\right)^2}, -\infty < x < \infty$$
+$$f_X(x) = \huge\frac{1}{\sqrt{2\pi\sigma^2}} e^{\huge-\frac{1}{2} \left(\huge\frac{x - \mu}{\huge\sigma}\right)^2}, -\infty < x < \infty$$
 
 Podemos dizer que $X$ possui uma distribuição normal e escrever $X \sim \mathcal{N}(\mu,\sigma^2)$.
 
 
 A fórmula apresentada é a **Função Densidade de Probabilidade** de uma **distribuição normal**. Ela descreve a probabilidade de que uma variável aleatória, denotada como $X$, assuma um valor específico $x$. A fórmula é representada da seguinte::
 
-$$f_X(x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{1}{2} \left(\frac{x - \mu}{\sigma}\right)^2}, -\infty < x < \infty$$
+$$f_X(x) =\huge \frac{1}{\sqrt{2\pi\sigma^2}} e^{\huge-\frac{1}{2} \left(\huge\frac{x - \mu}{\huge\sigma}\right)^2}, -\infty < x < \infty$$
 
 Aqui está uma explicação dos componentes da fórmula:
 
@@ -50,7 +50,7 @@ Aqui está uma explicação dos componentes da fórmula:
 
 - $1/\sqrt{2\pi\sigma^2}$: É uma constante de normalização que garante que a área sob a curva da função de densidade seja igual a 1. Isso significa que a integral da função sobre todos os valores possíveis de $x$ é igual a 1.
 
-- $e^{-\frac{1}{2} \left(\frac{x - \mu}{\sigma}\right)^2}$: Esta é a parte exponencial da fórmula. Ela descreve a forma da curva da distribuição normal. A curva é simétrica em torno da média ($\mu$) e diminui exponencialmente à medida que você se afasta da média. O termo $\sigma$ é o desvio padrão, que controla o grau de dispersão dos valores em torno da média.
+- $e^{\huge-\frac{1}{2} \left(\huge\frac{x - \mu}{\huge\sigma}\right)^2}$: Esta é a parte exponencial da fórmula. Ela descreve a forma da curva da distribuição normal. A curva é simétrica em torno da média ($\mu$) e diminui exponencialmente à medida que você se afasta da média. O termo $\sigma$ é o desvio padrão, que controla o grau de dispersão dos valores em torno da média.
 
 - $-\infty < x < \infty$: Indica que a distribuição normal abrange todos os valores possíveis de $x$, de menos infinito até mais infinito.
 
@@ -70,9 +70,7 @@ $V(X) = \sigma^2$
 
 ### Cálculo da Probabilidade
 
-$$
-P(a < X < b) = \int_{a}^{b} \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{1}{2} \left(\frac{x - \mu}{\sigma}\right)^2} dx
-$$
+$$P(a < X < b) = \huge\int_{a}^{b} \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{1}{2} \left(\frac{x - \mu}{\sigma}\right)^2} dx$$
 
 Cabe notar que a integral da função densidade de probabilidade normal não possui solução analítica, sendo neste caso o seu cálculo deve ser realizado por uma aproximação, método numérico.
 
