@@ -56,9 +56,9 @@ Não rejeitamos a hipótese nula.
 
  Por exemplo, a fórmula para o teste de Wilcoxon seria expressa como:
 
-$ H_0: \text{As amostras são iguais} $
+$H_0: \text{As amostras são iguais}$
 
-$ H_1: \text{As amostras são diferentes} $
+$H_1: \text{As amostras são diferentes}$
 
 
 ---
@@ -67,29 +67,26 @@ $ H_1: \text{As amostras são diferentes} $
 
 ### Para o coeficiente de correlação de Spearman:
 
-$ \rho = 1 - \frac{6 \sum d_i^2}{n(n^2 - 1)} $
+$\huge\rho = 1 - \frac{6 \sum d_i^2}{n(n^2 - 1)}$
 
 
 
-A fórmula apresenta o cálculo do Coeficiente de Correlação de Spearman ($ \rho $), que é uma medida de correlação não paramétrica entre duas variáveis. Em vez de avaliar a relação linear entre as variáveis, o coeficiente de Spearman avalia a relação monotônica, o que significa que ele identifica se, à medida que uma variável aumenta, a outra também tende a aumentar (ou diminuir).
+A fórmula apresenta o cálculo do Coeficiente de Correlação de Spearman ($\rho$), que é uma medida de correlação não paramétrica entre duas variáveis. Em vez de avaliar a relação linear entre as variáveis, o coeficiente de Spearman avalia a relação monotônica, o que significa que ele identifica se, à medida que uma variável aumenta, a outra também tende a aumentar (ou diminuir).
 
 A fórmula é composta pelos seguintes elementos:
 
-- $ \rho $: Coeficiente de Correlação de Spearman.
-- $ d_i $: A diferença entre os postos (ordens) das observações nas duas variáveis.
-- $ n $: Número total de pares de observações.
+- $\rho$: Coeficiente de Correlação de Spearman.
+- $d_i$: A diferença entre os postos (ordens) das observações nas duas variáveis.
+- $n$: Número total de pares de observações.
 
-A expressão $ \sum d_i^2 $ representa a soma dos quadrados das diferenças de postos. A fórmula é normalizada usando a seguinte fórmula:
+A expressão $\huge\sum d_i^2$ representa a soma dos quadrados das diferenças de postos. A fórmula é normalizada usando a seguinte fórmula:
 
-$ \rho = 1 - \frac{6 \sum d_i^2}{n(n^2 - 1)} $
+$\huge\rho = 1 - \huge\frac{6 \sum d_i^2}{n(n^2 - 1)}$
 
 A interpretação do coeficiente de Spearman é semelhante à do coeficiente de correlação de Pearson, variando de -1 a 1. Um valor de 1 indica uma correlação perfeita monotônica positiva, -1 indica uma correlação perfeita monotônica negativa, e 0 indica ausência de correlação monotônica.
 
 Essa fórmula é útil quando os dados não seguem uma distribuição normal ou quando a relação entre as variáveis não é estritamente linear. O coeficiente de Spearman é menos sensível a valores extremos do que o coeficiente de correlação de Pearson, tornando-o adequado para dados ordinalmente classificados.
 
-
-
-Claro, vou explicar em termos mais simples:
 
 1. **Correlação Perfeita Monotônica Positiva ( $\rho = 1$):**
    - Isso significa que, à medida que uma variável aumenta, a outra também aumenta, seguindo uma relação monotônica positiva. Por exemplo, se você tiver duas variáveis, como o tempo de estudo e as notas dos alunos, uma correlação perfeita monotônica positiva indicaria que, à medida que o tempo de estudo aumenta, as notas dos alunos sempre aumentam, sem exceção.
