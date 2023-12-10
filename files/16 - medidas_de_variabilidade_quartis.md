@@ -26,15 +26,14 @@ Para calcular os quartis, primeiro é necessário ordenar o conjunto de dados em
 
 &nbsp;
 
-$\displaystyle\text{Q1} = \begin{cases}
-  \LARGE x_{k}, & \text{se } k \text{ inteiro} \\
-  \dfrac{\LARGE x_{k} + x_{k + 1}}{2}, & \text{se } k \text{ número fracionário}
-\end{cases}
-\ $
+
+$$\text{Q1} = \begin{cases} 
+  \large x_{k}, & \text{se } k \text{ é inteiro} \\
+  \dfrac{ \large  x_{k} + x_{k + 1}}{2}, & \text{se } k \text{ é número fracionário} 
+\end{cases}$$
+
 
 &nbsp;
-
-
 
 
    - Encontre a posição (k) do valor que divide os primeiros 25% dos dados. Use a fórmula: $ \displaystyle\ k = \frac{n + 1}{4}$, onde $n$ é o tamanho do conjunto de dados.
@@ -49,11 +48,10 @@ $\displaystyle\text{Q1} = \begin{cases}
    - Q2 é simplesmente a mediana dos dados, que é o valor no meio do conjunto de dados quando ele está ordenado.
 &nbsp;
 
-$\displaystyle\text{md}(X) = \begin{cases}
+$$\displaystyle\text{md}(X) = \begin{cases}
   \LARGE x_{\frac{n + 1}{2}}, & \text{se } n \text{ ímpar} \\
   \dfrac{\LARGE x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{se } n \text{ par}
-\end{cases}
-\ $
+\end{cases}$$
 
 &nbsp;
 
@@ -65,19 +63,19 @@ $\displaystyle\text{md}(X) = \begin{cases}
 
 &nbsp;
 
-$\displaystyle\text{Q3} = \begin{cases}
+$$\displaystyle\text{Q3} = \begin{cases}
   \LARGE x_{k}, & \text{se } k \text{ inteiro} \\
   \dfrac{\LARGE x_{k} + x_{k + 1}}{2}, & \text{se } k \text{ número fracionário}
-\end{cases}
-\ $
+\end{cases}$$
 
 &nbsp;
 
 
 
-   - Encontre a posição (k) do valor que divide os primeiros 75% dos dados. Use a fórmula: $ \displaystyle\ k = \frac{3(n + 1)}{4}$.
+   - Encontre a posição (k) do valor que divide os primeiros 75% dos dados.
+   - Use a fórmula: $\displaystyle\ k = \frac{3(n + 1)}{4}$.
    - Se $k$ for um número inteiro, então $Q3$ é o valor na posição $k$.
-   - Se $k$ não for um número inteiro, você pode calcular $Q3$ como a média dos valores nas posições $k$ e $ \displaystyle\ k+1$.
+   - Se $k$ não for um número inteiro, você pode calcular $Q3$ como a média dos valores nas posições $k$ e $\displaystyle\ k+1$.
 
 &nbsp;
 
@@ -87,25 +85,24 @@ Considere o seguinte conjunto de dados ordenados (tamanho $n = 8$):
 - 12, 15, 17, 22, 25, 29, 30, 35
 
 1. **Primeiro Quartil (Q1):**
-   - $ \displaystyle\ k = \frac{8 + 1}{4} = 2.25$
+   - $\displaystyle\ k = \frac{8 + 1}{4} = 2.25$
    - Como $k$ não é um número inteiro, vamos calcular a média entre o valor na posição 2° (15) e o valor na posição 3° (17).
-   - $ \displaystyle\ Q1 = \frac{X_k=2 + X_k=3}{2} =  \frac{15 + 17}{2} = 16$
+   - $\displaystyle\ Q1 = \frac{X_k=2 + X_k=3}{2} =  \frac{15 + 17}{2} = 16$
 
 &nbsp;
 
 2. **Segundo Quartil (Q2):**
 
-   - $ \displaystyle\ Q2 =$ $\displaystyle\text{md}(X) = \begin{cases}\
-  \dfrac{\LARGE x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{se } n \text{ par}
-\end{cases}
-\ $
+$$\displaystyle\ Q2 =\displaystyle\text{md}(X) = \begin{cases}\
+\dfrac{\LARGE x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{se } n \text{ par}
+\end{cases}$$
   
   
   
-   - $ \displaystyle\ k = \frac{n}{2} = 4$
-   - $ \displaystyle\ k = \frac{n}{2} +1 = 5$ 
+   - $\displaystyle\ k = \frac{n}{2} = 4$
+   - $\displaystyle\ k = \frac{n}{2} +1 = 5$ 
    - Como $n$ é um número par, vamos calcular a média entre o valor na posição 4 (22) e o valor na posição 5 (25).
-   - $ \displaystyle\ Q2 =\frac{X_k=4 + X_k=5}{2} =  \frac{22 + 25}{2} = 23,5$
+   - $\displaystyle\ Q2 =\frac{X_k=4 + X_k=5}{2} =  \frac{22 + 25}{2} = 23,5$
    - Q2 é o valor no meio dos dados, mediana, que é 23,5.
    
 
@@ -114,9 +111,9 @@ Considere o seguinte conjunto de dados ordenados (tamanho $n = 8$):
 
 3. **Terceiro Quartil (Q3):**
 
-   - $ \displaystyle\ k = \frac{3(8 + 1)}{4} = 6.75$
+   - $\displaystyle\ k = \frac{3(8 + 1)}{4} = 6.75$
    - Como $k$ não é um número inteiro, calculamos a média entre o valor na posição 6 (29) e o valor na posição 7 (30).
-   - $ \displaystyle\ Q3 = \frac{X_k=6 + X_k=7}{2} = \frac{29 + 30}{2} = 29.5$
+   - $\displaystyle\ Q3 = \frac{X_k=6 + X_k=7}{2} = \frac{29 + 30}{2} = 29.5$
 
 Os quartis são úteis para entender a distribuição dos dados, identificar valores atípicos e comparar diferentes partes de um conjunto de dados. Eles são comumente usados em estatísticas descritivas e análise de dados.
 
@@ -205,9 +202,9 @@ Aqui estão os passos para calcular o IQR:
 
 
 **Primeiro Quartil ou Quartil Inferior (Q1):**
-   - $ \displaystyle\ k = \frac{10 + 1}{4} = 2.75$
+   - $\displaystyle\ k = \frac{10 + 1}{4} = 2.75$
    - Como $k$ não é um número inteiro, vamos calcular a média entre o valor na posição 2° (15) e o valor na posição 3° (/assets/16).
-   - $ \displaystyle\ Q1 = \frac{X_k=2 + X_k=3}{2} =  \frac{15 + 16}{2} = 15,5$
+   - $\displaystyle\ Q1 = \frac{X_k=2 + X_k=3}{2} =  \frac{15 + 16}{2} = 15,5$
 
 Q1 = 15,5
 
@@ -215,9 +212,9 @@ Q1 = 15,5
 3. Calcule o terceiro quartil (Q3), que é o valor no 75º percentil:
 
 
-   - $ \displaystyle\ k = \frac{3(10 + 1)}{4} = 8,25$
+   - $\displaystyle\ k = \frac{3(10 + 1)}{4} = 8,25$
    - Como $k$ não é um número inteiro, calculamos a média entre o valor na posição 8 (25) e o valor na posição 9 (27).
-   - $ \displaystyle\ Q3 = \frac{X_k=6 + X_k=7}{2} = \frac{29 + 30}{2} = 26$
+   - $\displaystyle\ Q3 = \frac{X_k=6 + X_k=7}{2} = \frac{29 + 30}{2} = 26$
 
 Q3 = 26
 
