@@ -23,10 +23,10 @@ A mediana é uma medida de tendência central em estatística que representa o v
 3. **Calcular a média dos dois valores centrais**: A mediana é a média aritmética dos dois valores centrais.
 
 
-$\displaystyle\text{md}(X) = x_{\LARGE\frac{n + 1}{2}}, \quad \text{se } n \text{ ímpar}$
-
-
-$\displaystyle\text{md}(X) = \dfrac{\LARGE x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, \quad \text{se } n \text{ par}$
+$$\text{md}(X) = \begin{cases} 
+  \large x_{\LARGE\frac{n + 1}{2}}, & \text{se } n \text{ ímpar} \\
+  \dfrac{ \LARGE x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{se } n \text{ par} 
+\end{cases}$$
 
 
 **Exemplos Práticos**:
