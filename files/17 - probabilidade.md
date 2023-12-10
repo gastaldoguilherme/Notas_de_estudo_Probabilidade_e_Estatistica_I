@@ -40,7 +40,7 @@ $\displaystyle P(A \cap B) = P(A|B) \cdot P(B)$
 
 ### Teorema de Bayes
 
-$ P(A|B) = \displaystyle \frac{P(B|A) \cdot P(A)}{P(B)} $
+$P(A|B) = \displaystyle \frac{P(B|A) \cdot P(A)}{P(B)}$
 
 
 
@@ -56,13 +56,13 @@ Se temos um evento A, o evento complementar de A (geralmente denotado por A' ou 
 
 A fórmula para calcular a probabilidade de um evento complementar é bastante simples:
 
-```
+
 P(A') = 1 - P(A)
 
 Onde:
 - P(A) é a probabilidade do evento A ocorrer
 - P(A') é a probabilidade do evento complementar de A (ou seja, A não ocorrer)
-```
+
 
 Essa fórmula é baseada no fato de que a soma das probabilidades de um evento e seu complemento deve ser igual a 1, pois um desses eventos deve ocorrer. 
 
@@ -72,7 +72,7 @@ Essa fórmula é baseada no fato de que a soma das probabilidades de um evento e
 Suponha que você queira calcular a probabilidade de chover no final de semana. Aqui estão alguns dados que você pode usar:
 
 - Evento A (Probabilidade de chover): P(A) = **0,30**
-```
+
 O evento complementar de A é a probabilidade de não chover, que é calculada pela fórmula:
 
 P(A') = 1 - P(A)
@@ -80,7 +80,7 @@ P(A') = 1 - P(A)
 Substituindo os valores na fórmula, temos:
 
 P(A') = 1 - 0,30 = **0,70**
-```
+
 ---
 
 ## Eventos Excludentes X Não Excludentes
@@ -92,7 +92,7 @@ Eventos excludentes, também conhecidos como eventos **mutuamente exclusivos**, 
 
 A fórmula para a probabilidade de eventos mutuamente exclusivos é simplesmente a soma das probabilidades dos eventos individuais, pois não há sobreposição entre os eventos. Se A e B são eventos mutuamente exclusivos, então a probabilidade de A ou B é dada por:
 
-$ P(A \cup B) = P(A) + P(B) $
+$P(A \cup B) = P(A) + P(B)$
 
 $A \cap B = Ø$ e $P(A \cap B) = 0$
 
@@ -148,11 +148,11 @@ Eventos não excludentes, por outro lado, são eventos que **podem ocorrer ao me
 
 A fórmula para a probabilidade de eventos não mutuamente exclusivos leva em conta a sobreposição entre os eventos. Se A e B são eventos que podem ocorrer simultaneamente, então a probabilidade de A ou B é dada por:
 
-$ P(A \cup B) = P(A) + P(B) - P(A \cap B) $
+$P(A \cup B) = P(A) + P(B) - P(A \cap B)$
 
 $P(A \cap B) > 0$
 
-Aqui, $ P(A \cap B) $ representa a probabilidade de ambos os eventos A e B ocorrerem.
+Aqui, $P(A \cap B)$ representa a probabilidade de ambos os eventos A e B ocorrerem.
 
 #### Exercício 4: 
 
@@ -165,7 +165,7 @@ Considere um baralho padrão de 52 cartas, onde há 4 naipes (copas, ouros, paus
 
 A probabilidade de tirar uma carta que seja de um naipe vermelho ou um ás é dada pela soma das probabilidades individuais, subtraindo a probabilidade de ocorrência conjunta (para evitar a contagem dupla). Isso pode ser expresso pela seguinte fórmula:
 
-```
+
 P(naipe $\cup$ ou ás) = P(naipe vermelho) + P(ás) – P(naipe vermelho $\cap$ ás)
 
 
@@ -174,7 +174,7 @@ Substituindo os valores conhecidos na fórmula, temos:
 
 P(naipe vermelho $\cup$  ás) = (26/52) + (4/52) – (2/52) = 28/52 = 0,538
 
-```
+
 Portanto, a probabilidade de tirar uma carta que seja de um naipe vermelho ou um ás é aproximadamente 0,538 ou 53,8%.
 
 
@@ -195,7 +195,7 @@ Você precisa calcular a probabilidade de uma família ter um PC ou um Mac. Aqui
 - Probabilidade de ter PC e Mac (P(PC ∩ Mac)): 0,29
 
 #### Solução:
-```
+
 A probabilidade de ter PC ou Mac é calculada pela fórmula:
 
 P(PC ∪ Mac) = P(PC) + P(Mac) - P(PC ∩ Mac)
@@ -203,7 +203,7 @@ P(PC ∪ Mac) = P(PC) + P(Mac) - P(PC ∩ Mac)
 Substituindo os valores na fórmula, temos:
 
 P(PC ∪ Mac) = 0,86 + 0,35 - 0,29 = 0,92 ou 92%
-```
+
 
 --- 
 
@@ -286,7 +286,7 @@ Onde:
 
 #### Probabilidade condicional: Evento Dependente
 
-$P(A|B) = \frac{P(A \cap B)}{P(B)}$
+$P(A|B) = \large \frac{P(A \cap B)}{P(B)}$
 
 
 Onde:
@@ -356,14 +356,14 @@ Calcule: P(ml | ca) = (1/50) / (3/100)
 
 O Teorema de Bayes é uma ferramenta fundamental em teoria da probabilidade que nos permite atualizar probabilidades de hipóteses com base em novas evidências. A fórmula do Teorema de Bayes é expressa como:
 
-$ P(A|B) = \displaystyle \frac{P(B|A) \cdot P(A)}{P(B)} $
+$P(A|B) = \displaystyle \frac{P(B|A) \cdot P(A)}{P(B)}$
 
 onde:
 
-- $ P(A|B) $ é a probabilidade condicional de A dado B.
-- $ P(B|A) $ é a probabilidade condicional de B dado A.
-- $ P(A) $ é a probabilidade marginal de A.
-- $ P(B) $ é a probabilidade marginal de B.
+- $P(A|B)$ é a probabilidade condicional de A dado B.
+- $P(B|A)$ é a probabilidade condicional de B dado A.
+- $P(A)$ é a probabilidade marginal de A.
+- $P(B)$ é a probabilidade marginal de B.
 
 A probabilidade marginal de um evento é a probabilidade desse evento ocorrer, independentemente de quaisquer outros eventos. No contexto do Teorema de Bayes, a probabilidade marginal de um evento (por exemplo, $ P(A) $) é a probabilidade desse evento ocorrer sem considerar qualquer informação adicional sobre outros eventos.
 
@@ -378,45 +378,45 @@ Essa fórmula é útil quando queremos inverter a condição de probabilidade co
 
 ### Probabilidade Total:
 
-A Probabilidade Total é um conceito usado para calcular a probabilidade de um evento $ B $, levando em consideração diferentes "causas" ou "condições" possíveis, geralmente expressas como eventos $ A_i $. 
+A Probabilidade Total é um conceito usado para calcular a probabilidade de um evento $B$, levando em consideração diferentes "causas" ou "condições" possíveis, geralmente expressas como eventos $A_i$. 
 
-Isso significa que a probabilidade total de $ B $ é a soma das probabilidades condicionais de $ B $ dado cada $ A_i $, ponderada pela probabilidade de cada $ A_i $ individualmente.
-
-
+Isso significa que a probabilidade total de $ B $ é a soma das probabilidades condicionais de $B$ dado cada $A_i$, ponderada pela probabilidade de cada $A_i$ individualmente.
 
 
 
 
-$ P(B) = \sum_{i} P(B | A_i) \cdot P(A_i) $
+
+
+$P(B) = \sum_{i} P(B | A_i) \cdot P(A_i)$
 
 Onde:
-- $ P(B) $ é a probabilidade do evento $ B $ ocorrer.
-- $ P(B | A_i) $ é a probabilidade condicional de $ B $ dado $ A_i $, ou seja, a probabilidade de $ B $ ocorrer dado que $ A_i $ ocorreu.
-- $ P(A_i) $ é a probabilidade do evento $ A_i $ ocorrer, representando as diferentes "causas" ou "condições" possíveis.
+- $P(B)$ é a probabilidade do evento $ B $ ocorrer.
+- $P(B | A_i)$ é a probabilidade condicional de $B$ dado $A_i$, ou seja, a probabilidade de $B$ ocorrer dado que $A_i$ ocorreu.
+- $P(A_i)$ é a probabilidade do evento $A_i$ ocorrer, representando as diferentes "causas" ou "condições" possíveis.
 
 #### Exercício 10: 
 
-Suponha que estamos interessados na probabilidade de um estudante passar em um exame ($ B $). Existem duas possíveis causas para o sucesso ou fracasso: o estudante estudou ($ A_1 $) ou o estudante não estudou ($ A_2 $). As probabilidades são as seguintes:
+Suponha que estamos interessados na probabilidade de um estudante passar em um exame ($B$). Existem duas possíveis causas para o sucesso ou fracasso: o estudante estudou ($A_1$) ou o estudante não estudou ($A_2$). As probabilidades são as seguintes:
 
-$ P(B | A_1) = 0.9 $ (a probabilidade de passar dado que o estudante estudou)
+$P(B | A_1) = 0.9$ (a probabilidade de passar dado que o estudante estudou)
 
-$ P(B | A_2) = 0.2 $ (a probabilidade de passar dado que o estudante não estudou)
+$P(B | A_2) = 0.2$ (a probabilidade de passar dado que o estudante não estudou)
 
-$ P(A_1) = 0.6 $ (a probabilidade de o estudante estudar)
+$P(A_1) = 0.6$ (a probabilidade de o estudante estudar)
 
-$ P(A_2) = 0.4 $ (a probabilidade de o estudante não estudar)
+$P(A_2) = 0.4$ (a probabilidade de o estudante não estudar)
 
 Agora podemos usar a fórmula da Probabilidade Total para calcular a probabilidade total de passar no exame:
 
-$ P(B) = P(B | A_1) \cdot P(A_1) + P(B | A_2) \cdot P(A_2) $
+$P(B) = P(B | A_1) \cdot P(A_1) + P(B | A_2) \cdot P(A_2)$
 
 Substituindo os valores:
 
-$ P(B) = (0.9 \cdot 0.6) + (0.2 \cdot 0.4) $
+$P(B) = (0.9 \cdot 0.6) + (0.2 \cdot 0.4)$
 
-$ P(B) = 0.54 + 0.08 $
+$P(B) = 0.54 + 0.08$
 
-$ P(B) = 0.62 $
+$P(B) = 0.62$
 
 Portanto, a probabilidade total de um estudante passar no exame é 0.62, considerando as diferentes condições de estudar ou não estudar.
 
@@ -424,7 +424,7 @@ Portanto, a probabilidade total de um estudante passar no exame é 0.62, conside
 
 ### Probabilidade Marginal:
 
-A Probabilidade Marginal refere-se à probabilidade de um evento específico, sem levar em consideração outros eventos. Se tivermos dois eventos $ A $ e $ B $, a probabilidade marginal de $ A $ (ou $ B $) é a probabilidade de $ A $ (ou $ B $) ocorrer, independentemente de $ B $ (ou $ A $) ocorrer ou não. A fórmula para a probabilidade marginal é expressa como:
+A Probabilidade Marginal refere-se à probabilidade de um evento específico, sem levar em consideração outros eventos. Se tivermos dois eventos $A$ e $B$, a probabilidade marginal de $A$ (ou $B$) é a probabilidade de $A$ (ou $B$) ocorrer, independentemente de $B$ (ou $A$) ocorrer ou não. A fórmula para a probabilidade marginal é expressa como:
 
 $P(A) = \sum_{i} P(A, B_i) $
 
@@ -433,25 +433,25 @@ Isso implica somar as probabilidades conjuntas de $ A $ e $ B_i $ para todas as 
 
 
 Onde:
-- $ P(A) $ é a probabilidade do evento $ A $ ocorrer independentemente de $ B $.
-- $ P(A, B_i) $ é a probabilidade conjunta de $ A $ e $ B_i $, representando a ocorrência simultânea de $ A $ e uma condição específica $ B_i $.
+- $P(A)$ é a probabilidade do evento $A$ ocorrer independentemente de $B$.
+- $P(A, B_i)$ é a probabilidade conjunta de $A$ e $B_i$, representando a ocorrência simultânea de $A$ e uma condição específica $B_i$.
 
 #### Exercício 11: 
 
-Suponha que temos dois eventos, $ A $ e $ B $, onde $ A $ representa a ocorrência de chuva e $ B $ representa a condição de estar nublado ou ensolarado. As probabilidades são as seguintes:
+Suponha que temos dois eventos, $A$ e $B$, onde $A$ representa a ocorrência de chuva e $B$ representa a condição de estar nublado ou ensolarado. As probabilidades são as seguintes:
 
-$ P(A, \text{nublado}) = 0.3 $ (a probabilidade de chuva quando está nublado)
-$ P(A, \text{ensolarado}) = 0.1 $ (a probabilidade de chuva quando está ensolarado)
+$P(A, \text{nublado}) = 0.3$ (a probabilidade de chuva quando está nublado)
+$P(A, \text{ensolarado}) = 0.1$ (a probabilidade de chuva quando está ensolarado)
 
 Agora, podemos usar a fórmula da Probabilidade Marginal para calcular a probabilidade de chuva, independente de estar nublado ou ensolarado:
 
-$ P(A) = P(A, \text{nublado}) + P(A, \text{ensolarado}) $
+$P(A) = P(A, \text{nublado}) + P(A, \text{ensolarado})$
 
 Substituindo os valores:
 
-$ P(A) = 0.3 + 0.1 $
+$P(A) = 0.3 + 0.1$
 
-$ P(A) = 0.4 $
+$P(A) = 0.4$
 
 Portanto, a probabilidade marginal de chuva é 0.4, independente da condição de estar nublado ou ensolarado. Essa probabilidade representa a chance global de chuva, sem considerar as diferentes condições climáticas.
 
@@ -467,20 +467,20 @@ Agora, imagine que uma pessoa faz o teste e o resultado é positivo. A pergunta 
 Vamos usar o Teorema de Bayes para calcular essa probabilidade.
 
 Definindo os eventos:
-- $ A $: A pessoa tem a condição médica (evento raro, com probabilidade $ P(A) = 0.01 $).
-- $ B $: O teste é positivo.
+- $A$: A pessoa tem a condição médica (evento raro, com probabilidade $P(A) = 0.01$.
+- $B$: O teste é positivo.
 
 Além disso, temos as probabilidades condicionais:
-- $ P(B|A) $: Probabilidade de o teste ser positivo dado que a pessoa tem a condição (95% de precisão, $ P(B|A) = 0.95 $).
-- $ P(B|\neg A) $: Probabilidade de o teste ser positivo dado que a pessoa não tem a condição (2% de falsos positivos, $ P(B|\neg A) = 0.02 $).
+- $P(B|A)$: Probabilidade de o teste ser positivo dado que a pessoa tem a condição (95% de precisão, $ P(B|A) = 0.95 $).
+- $P(B|\neg A)$: Probabilidade de o teste ser positivo dado que a pessoa não tem a condição (2% de falsos positivos, $P(B|\neg A) = 0.02$.
 
 Agora, podemos usar o Teorema de Bayes para calcular a probabilidade de a pessoa ter a condição dado que o teste foi positivo:
 
-$P(A|B) = \displaystyle\frac{P(B|A) \cdot P(A)}{P(B)} $
+$P(A|B) = \displaystyle\frac{P(B|A) \cdot P(A)}{P(B)}$
 
-onde $ P(B) $ é a probabilidade marginal de o teste ser positivo, que pode ser calculada usando a lei da probabilidade total:
+onde $P(B)$ é a probabilidade marginal de o teste ser positivo, que pode ser calculada usando a lei da probabilidade total:
 
-$P(B) = P(B|A) \cdot P(A) + P(B|\neg A) \cdot P(\neg A) $
+$P(B) = P(B|A) \cdot P(A) + P(B|\neg A) \cdot P(\neg A)$
 
 Vamos agora calcular essas probabilidades usando o Teorema de Bayes. Em Python, podemos fazer isso da seguinte forma:
 
