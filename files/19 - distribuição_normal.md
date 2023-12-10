@@ -35,18 +35,14 @@ Seja $X$ uma variável aleatória contínua com média $\mu$, em que $-\infty < 
 
 ### Função Densidade de Probabilidade
 
-$$
-f_X(x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{1}{2} \left(\frac{x - \mu}{\sigma}\right)^2}, -\infty < x < \infty
-$$
+$$f_X(x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{1}{2} \left(\frac{x - \mu}{\sigma}\right)^2}, -\infty < x < \infty$$
 
 Podemos dizer que $X$ possui uma distribuição normal e escrever $X \sim \mathcal{N}(\mu,\sigma^2)$.
 
 
 A fórmula apresentada é a **Função Densidade de Probabilidade** de uma **distribuição normal**. Ela descreve a probabilidade de que uma variável aleatória, denotada como $X$, assuma um valor específico $x$. A fórmula é representada da seguinte::
 
-$
-f_X(x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{1}{2} \left(\frac{x - \mu}{\sigma}\right)^2}, -\infty < x < \infty
-$
+$$f_X(x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{1}{2} \left(\frac{x - \mu}{\sigma}\right)^2}, -\infty < x < \infty$$
 
 Aqui está uma explicação dos componentes da fórmula:
 
